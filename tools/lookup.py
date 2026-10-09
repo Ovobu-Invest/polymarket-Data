@@ -1,5 +1,5 @@
 """Finn condition_id for markedene i en Polymarket-lenke.
-
+DETTE ER BARE ET FORSLAG: HER KAN VI ENDRE TIL HVA VIL 
 Bruk:  python tools/lookup.py https://polymarket.com/event/<event-slug>
 Skriver ut en ferdig blokk du kan lime inn i markets.yaml.
 """
