@@ -1,0 +1,8 @@
+# Data skal aldri inn i Git, den ligger på serveren
+*.parquet
+*.jsonl
+*.zst
+data/
+__pycache__/
+.venv/
+.env
