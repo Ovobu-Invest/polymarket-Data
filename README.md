@@ -17,7 +17,6 @@ Koden til selve innsamleren kommer i `collector/` etter hvert.
 ## Slik fungerer det
 
 1. Du foreslår et marked ved å endre `markets.yaml` i en pull request.
-2. Carl går gjennom og godkjenner.
 3. Serveren henter den nye lista og begynner å samle inn fra markedet.
 
 ## Regler i korte trekk
