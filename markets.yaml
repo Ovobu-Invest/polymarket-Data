@@ -1,0 +1,21 @@
+# Markeder Övobu Invest samler inn fra Polymarket.
+# Se CONTRIBUTING.md for hvordan du legger til eller fjerner et marked.
+#
+# Felter per marked:
+#   condition_id  ID-en til markedet (0x + 64 tegn). Finn den med tools/lookup.py
+#   slug          det lesbare navnet fra Polymarket
+#   question      spørsmålet, så det er lett å lese lista
+#   requested_by  GitHub-brukernavnet ditt
+#   reason        kort hvorfor vi skal følge markedet
+#   status        active = samles inn, remove = skal stoppes og arkiveres
+#   added         datoen det ble lagt til (ÅÅÅÅ-MM-DD)
+#
+# Eksempel (fjern # foran linjene og fyll inn):
+# - condition_id: "0x0000000000000000000000000000000000000000000000000000000000000000"
+#   slug: eksempel-marked
+#   question: "Eksempel: Hever Fed renten i oktober?"
+#   requested_by: Carl-swex
+#   reason: "Makro, godt likvid"
+#   status: active
+#   added: 2026-10-09
+
